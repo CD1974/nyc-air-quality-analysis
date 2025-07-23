@@ -51,12 +51,23 @@ Puedes ver todo el análisis y código en el notebook:
 
 ## 📄 Datos utilizados
 
-Los datos provienen de fuentes públicas sobre calidad del aire y contienen los valores diarios de PM2.5 y AQI en Nueva York entre 2020 y 2024. Cada archivo `.csv` representa un año, con columnas como:
+Los archivos `.csv` están organizados por año y se encuentran en la carpeta `data/`. Cada uno contiene registros diarios con las siguientes columnas:
 
-- `Date`
-- `PM2.5`
-- `AQI`
-- `Year`
+- `Date`: Fecha en formato YYYY-MM-DD
+- `PM2.5`: Concentración de partículas en microgramos por metro cúbico
+- `AQI`: Índice de Calidad del Aire estimado
+- `Year`: Año correspondiente
+
+Archivos disponibles:
+
+- `air_quality_2020.csv`
+- `air_quality_2021.csv`
+- `air_quality_2022.csv`
+- `air_quality_2023.csv`
+- `air_quality_2024.csv`
+
+👉 Puedes explorarlos desde la carpeta [`data/`](data/) o cargarlos en el notebook para análisis personalizado.
+
 
 ---
 
