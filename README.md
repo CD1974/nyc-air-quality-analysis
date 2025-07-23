@@ -34,6 +34,11 @@ Cada punto representa un día, con color según el año. Se observa cómo los ni
 
 ---
 
+### 🔹 Evolución temporal de PM2.5 vs AQI
+
+![Línea temporal: PM2.5 y AQI](images/line_pm25_aqi.png)
+
+Este gráfico muestra cómo varían diariamente la concentración de partículas (PM2.5) y el Índice de Calidad del Aire (AQI) en Nueva York entre 2020 y 2024. Los picos paralelos revelan una correlación directa entre ambos indicadores.
 
 ---
 
@@ -66,9 +71,3 @@ Instalación rápida:
 
 ```bash
 pip install pandas matplotlib seaborn
-
-### 🔹 Evolución temporal de PM2.5 vs AQI
-
-![Línea temporal: PM2.5 y AQI](images/line_pm25_aqi.png)
-
-Este gráfico muestra cómo varían diariamente la concentración de partículas (PM2.5) y el Índice de Calidad del Aire (AQI) en Nueva York entre 2020 y 2024. Los picos paralelos revelan una correlación directa entre ambos indicadores.
